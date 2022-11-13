@@ -1,0 +1,16 @@
+name: Shell Commands
+
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: "macos-latest"
+    steps:
+      - name: command name
+        run: echo "Start shell script"
+      - name: shell script
+        run: |
+          node -v
+          npm -v
+          
+
