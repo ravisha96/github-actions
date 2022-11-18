@@ -3,7 +3,7 @@ name: Shell Commands
 on: [push]
 
 jobs:
-  run-shell-command:
+  ravi-kumar-sha:
     runs-on: "macos-latest"
     steps:
       - name: command name
