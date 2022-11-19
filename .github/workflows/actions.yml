@@ -1,0 +1,17 @@
+name: Github External Vendor
+
+on: [push]
+
+jobs:
+  custom-github-actions:
+    runs-on: "macos-latest"
+    steps:
+      - name: Github Action Library
+        id: greet_output
+        uses: actions/hello-world-javascript-action@v1
+        with:
+          who-to-greet: Ravi Kumar Sha
+      - name: Print Action Output
+        run: echo "${{ steps.greet_output.outputs.time }}"
+
+      

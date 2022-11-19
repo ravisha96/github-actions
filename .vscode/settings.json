@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "file:///Users/ravisha/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "https://json.schemastore.org/github-workflow.json": "file:///Users/ravisha/Desktop/github-actions/.github/workflows/actions.yml"
+    }
+}
