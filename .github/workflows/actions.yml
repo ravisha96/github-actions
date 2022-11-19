@@ -22,8 +22,8 @@ jobs:
         with:
           ref: ${{ github.ref }}
           fetch-depth: 0
-      - name: "Automated Version Bump"
-        uses: "phips28/gh-action-bump-version@master"
+      - name: Automated Version Bump
+        uses: phips28/gh-action-bump-version@master
         with:
           tag-prefix: ''
 
